@@ -3,7 +3,15 @@
 - git
 
 - js
-let name = "Mark Janovskij"
+let stringType2 = "Full Name";
+console.log(stringType2)
+let str = "Mark Janovskij";
+let newStr = str.slice(0, 1) + ". " + str.slice(5);
+console.log(newStr); // Output: "M. Janovskij"
+
+
+
+
 let score1 = 10
 let score2 = 20
 let score3 = 30
@@ -22,10 +30,6 @@ let scoreMid = scoreTotal / 10
 let stringType1 = "Total Score";
 console.log(stringType1)
 console.log(scoreTotal);
-
-let stringType2 = "Full Name";
-console.log(stringType2)
-console.log(name);
 
 let stringType3 = "Middle Score";
 console.log(stringType3)
