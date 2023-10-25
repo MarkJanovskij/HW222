@@ -1,5 +1,5 @@
 javascript
-let a = 5;
-let b = "10";
-let c = a + b;
-console.log(c); // Output: "510" Приведите пример
+let a = 10; //число
+a = "coolman";// теперь строка
+
+console.log(a); // Output: "510" Приведите пример
