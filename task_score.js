@@ -9,9 +9,6 @@ let str = "Mark Janovskij";
 let newStr = str.slice(0, 1) + ". " + str.slice(5);
 console.log(newStr); // Output: "M. Janovskij"
 
-
-
-
 let score1 = 10
 let score2 = 20
 let score3 = 30
